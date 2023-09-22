@@ -1,6 +1,6 @@
 const cash = "<font color='#75b4db'>CASH</font><br>"
 const bitcoins = "<font color='#75b4db'>BITCOINS</font><br>"
-
+/* Check READ.ME before changing anything! */
 $(function() {
     window.onload = (e) => {
         window.addEventListener('message', (event) => {
