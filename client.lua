@@ -1,5 +1,5 @@
 local display = false
-
+-- Check READ.ME before changing anything!
 RegisterCommand(
     "hud",
     function()
