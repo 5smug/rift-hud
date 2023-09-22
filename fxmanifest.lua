@@ -1,8 +1,8 @@
 fx_version 'adamant'
 game 'gta5'
 
-author 'gush3l#6016'
-description 'This hud was inspired from Ice Romania RolePlay! - Swn_'
+author '@5smug'
+description 'This hud was inspired from an old creation (CBT Romania)'
 
 ui_page "html/index.html"
 
