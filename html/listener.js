@@ -26,11 +26,11 @@ $(document).ready(function() {
             $(".bitcoins").html(cash + event.data.bitcoins + "");
         }
         if (event.data.players) {
-            document.querySelector("#online_players").innerHTML = data.players + "/128";
+            document.querySelector("#online_players").innerHTML = data.players + "/128"; /* Change the 128 to the amount of slots your server has */
         }
 
         var today = new Date();
-        const monthNames = [".01.", ".02.", ".03.", ".04.", ".05.", ".06.", ".07.", ".08.", ".09.", ".10.", ".11.", ".12."];
+        const monthNames = [".01.", ".02.", ".03.", ".04.", ".05.", ".06.", ".07.", ".08.", ".09.", ".10.", ".11.", ".12."]; /* You can change this as you would like to appear. */
         var date = new Date().getDate() + monthNames[today.getMonth()] + today.getFullYear();
 
         document.getElementById("data").innerHTML = date;
