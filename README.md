@@ -2,6 +2,7 @@ This hud was made for my old FiveM server. Now that I don't host it anymore, I'v
 
 - To change the image, go to **html/index.html** at **line 21** and change the url.
 - To change the colours, go to **html/style.css** and change the text-shadow color and the drop-shadow color.
+- To change the colour display of the money and bitcoins, go to **html/listener.js** and change the hex code from the first two lines.
 - To add another layer, or change one, go to **client.lua** and **html/listener.js** to set another one like so in the setValues table:
 **pmoney = formatMoney(pmoney) = shows pocket money**
 **bitcoins = formatMoney(bitcoins) = shows special coins owned**
