@@ -44,6 +44,7 @@ AddEventHandler(
         SendNUIMessage(
             {
                 type = "ui",
+                -- type = ["ui".text],      -- leave empty or delete.
                 players = GetOnlinePlayers(),
                 bitcoins = formatMoney(bitcoins),
                 pmoney = formatMoney(pmoney),
