@@ -13,4 +13,3 @@
 
 - For any problems/inconveniences, contact: ***@5smug*** on discord! 👍
 
-👍
