@@ -30,7 +30,7 @@ $(document).ready(function() {
         }
 
         var today = new Date();
-        const monthNames = [".01.", ".02.", ".03.", ".04.", ".05.", ".06.", ".07.", ".08.", ".09.", ".10.", ".11.", ".12."]; /* You can change this as you would like to appear. */
+        const monthNames = [".01.", ".02.", ".03.", ".04.", ".05.", ".06.", ".07.", ".08.", ".09.", ".10.", ".11.", ".12."];
         var date = new Date().getDate() + monthNames[today.getMonth()] + today.getFullYear();
 
         document.getElementById("data").innerHTML = date;

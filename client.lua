@@ -1,17 +1,14 @@
 local display = false
 -- Check READ.ME before changing anything!
-RegisterCommand(
-    "hud",
-    function()
-        Citizen.CreateThread(
-            function()
-                display = true
-                Wait(6500) -- 1000 = 1 second.
-                display = false
-            end
-        )
-    end
-)
+RegisterCommand("hud", function()
+    Citizen.CreateThread(
+        function()
+            display = true
+            Wait(6500) -- 1000 = 1 second.
+            display = false
+        end
+    )
+end)
 
 function formatMoney(amount)
     local left, num, right = string.match(tostring(amount), "^([^%d]*%d)(%d*)(.-)$")

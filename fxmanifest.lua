@@ -1,8 +1,8 @@
 fx_version 'adamant'
 game 'gta5'
 
-author '@5smug'
-description 'This hud was inspired from an old creation (CBT Romania)'
+author 'https://steamcommunity.com/id/5smug/ || https://github.com/5smug'
+description "A FiveM hud that shows a player's pockey money and bitcoins.."
 
 ui_page "html/index.html"
 
