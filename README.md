@@ -11,5 +11,5 @@
 - When the hud isn't used, only the ***logo*** and ***date*** present on the players screen. To make it so that even those don't show, go to **html/listener.js** and add a function for the logo and date time like the one showed there (for money and bitcoins)
 - To make the logo function properly, make sure to use a image that has the size of *96x96*. Just like your server's default logo would have.
 
-- For any problems/inconveniences, contact: ***@5smug.*** on discord! 👍
+- For any problems/inconveniences, contact: ***@5smug_*** on discord! 👍
 
