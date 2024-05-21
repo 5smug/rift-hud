@@ -7,14 +7,14 @@ description "A FiveM hud that shows a player's pockey money and bitcoins.."
 ui_page "html/index.html"
 
 client_scripts{
-"@vrp/client/Tunnel.lua",
-"@vrp/client/Proxy.lua",
+    "@vrp/client/Tunnel.lua",
+    "@vrp/client/Proxy.lua",
     "config.lua",
     "client.lua"
 } 
 
 server_scripts{
-"@vrp/lib/utils.lua",
+    "@vrp/lib/utils.lua",
     "server.lua"
 }
 
